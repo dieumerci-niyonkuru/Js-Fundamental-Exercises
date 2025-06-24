@@ -23,3 +23,7 @@ console.log(valuex);
 for(const[props,value] of Object.entries(obj)){
     console.log(`${props}: ${value}`);
 }
+// this is array to object 
+const colors=["blue","grey","orange","white","pink","black"]
+const arraytoobject={...colors};
+console.log(arraytoobject);
