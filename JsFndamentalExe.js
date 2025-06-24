@@ -24,6 +24,10 @@ for(const[props,value] of Object.entries(obj)){
     console.log(`${props}: ${value}`);
 }
 // this is array to object 
-const colors=["blue","grey","orange","white","pink","black"]
+const colors=["blue","grey","orange","white","pink","black"];
 const arraytoobject={...colors};
-console.log(arraytoobject);
+colors.forEach((color,index)=>{
+console.log(`${index + 1}: ${color}`);
+});
+
+// console.log(arraytoobject);
