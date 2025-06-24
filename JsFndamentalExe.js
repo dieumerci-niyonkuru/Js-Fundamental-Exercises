@@ -31,3 +31,21 @@ console.log(`${index + 1}: ${color}`);
 });
 
 // console.log(arraytoobject);
+
+let arr = [1,2,3,4,5]
+console.log(arr.every(elem=>elem%2 == 0))
+console.log(arr.some(elem=>elem%2 == 0))
+console.log("valens".length)
+
+function countLetters(name,letter){
+    console.log(name)
+    let nameSplitted = name.split("")
+    console.log(nameSplitted)
+    let lettersWanted = nameSplitted.filter(elem => elem == letter)
+    console.log(lettersWanted)
+    return lettersWanted.length
+
+}
+
+console.log(countLetters("ababanabarasaneza","a"))
+
